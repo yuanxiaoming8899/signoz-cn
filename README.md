@@ -1,230 +1,147 @@
-<p align="center">
-  <img src="https://res.cloudinary.com/dcv3epinx/image/upload/v1618904450/signoz-images/LogoGithub_sigfbu.svg" alt="SigNoz-logo" width="240" />
-
-  <p align="center">Monitor your applications and troubleshoot problems in your deployed applications, an open-source alternative to DataDog, New Relic, etc.</p>
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><p align="center" dir="auto">
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/fb5ef34b8e4553d2299ebf4070e138a8f418fe145d12c9a26d7d2b23f2dab453/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f646376336570696e782f696d6167652f75706c6f61642f76313631383930343435302f7369676e6f7a2d696d616765732f4c6f676f4769746875625f7369676662752e737667"><img src="https://camo.githubusercontent.com/fb5ef34b8e4553d2299ebf4070e138a8f418fe145d12c9a26d7d2b23f2dab453/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f646376336570696e782f696d6167652f75706c6f61642f76313631383930343435302f7369676e6f7a2d696d616765732f4c6f676f4769746875625f7369676662752e737667" alt="SigNoz 标志" width="240" data-canonical-src="https://res.cloudinary.com/dcv3epinx/image/upload/v1618904450/signoz-images/LogoGithub_sigfbu.svg" style="max-width: 100%;"></a>
+  </p><p align="center" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">监视您的应用程序并解决已部署应用程序中的问题，这是 DataDog、New Relic 等的开源替代方案。</font></font></p>
+<p dir="auto"></p>
+<p align="center" dir="auto">
+    <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/2cee2638cd12917c5a00ab8bbb067fddab5b9d11ebb92fd91142f21d45627ca1/68747470733a2f2f696d672e736869656c64732e696f2f646f636b65722f70756c6c732f7369676e6f7a2f71756572792d736572766963653f6c6162656c3d446f636b657220446f776e6c6f616473"><img alt="下载" src="https://camo.githubusercontent.com/2cee2638cd12917c5a00ab8bbb067fddab5b9d11ebb92fd91142f21d45627ca1/68747470733a2f2f696d672e736869656c64732e696f2f646f636b65722f70756c6c732f7369676e6f7a2f71756572792d736572766963653f6c6162656c3d446f636b657220446f776e6c6f616473" data-canonical-src="https://img.shields.io/docker/pulls/signoz/query-service?label=Docker Downloads" style="max-width: 100%;"></a> 
+    <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/8785afa1a932f1b5615d38763ce1666af9209225691e9fca2de913ebd5fb353f/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732f7369676e6f7a2f7369676e6f7a"><img alt="GitHub 问题" src="https://camo.githubusercontent.com/8785afa1a932f1b5615d38763ce1666af9209225691e9fca2de913ebd5fb353f/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732f7369676e6f7a2f7369676e6f7a" data-canonical-src="https://img.shields.io/github/issues/signoz/signoz" style="max-width: 100%;"></a> 
+    <a href="https://twitter.com/intent/tweet?text=Monitor%20your%20applications%20and%20troubleshoot%20problems%20with%20SigNoz,%20an%20open-source%20alternative%20to%20DataDog,%20NewRelic.&amp;url=https://signoz.io/&amp;via=SigNozHQ&amp;hashtags=opensource,signoz,observability" rel="nofollow"> 
+        <img alt="鸣叫" src="https://camo.githubusercontent.com/a00d957c85627f2862ae61b59289e25f875e9ae40a716efdf5c3e032d6b8f863/68747470733a2f2f696d672e736869656c64732e696f2f747769747465722f75726c2f687474702f736869656c64732e696f2e7376673f7374796c653d736f6369616c" data-canonical-src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" style="max-width: 100%;"> </a> 
 </p>
-
-<p align="center">
-    <img alt="Downloads" src="https://img.shields.io/docker/pulls/signoz/query-service?label=Docker Downloads"> </a>
-    <img alt="GitHub issues" src="https://img.shields.io/github/issues/signoz/signoz"> </a>
-    <a href="https://twitter.com/intent/tweet?text=Monitor%20your%20applications%20and%20troubleshoot%20problems%20with%20SigNoz,%20an%20open-source%20alternative%20to%20DataDog,%20NewRelic.&url=https://signoz.io/&via=SigNozHQ&hashtags=opensource,signoz,observability"> 
-        <img alt="tweet" src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social"> </a> 
-</p>
-  
-  
-<h3 align="center">
-  <a href="https://signoz.io/docs"><b>Documentation</b></a> &bull;
-  <a href="https://github.com/SigNoz/signoz/blob/develop/README.zh-cn.md"><b>ReadMe in Chinese</b></a> &bull;
-  <a href="https://github.com/SigNoz/signoz/blob/develop/README.de-de.md"><b>ReadMe in German</b></a> &bull;
-  <a href="https://github.com/SigNoz/signoz/blob/develop/README.pt-br.md"><b>ReadMe in Portuguese</b></a> &bull;
-  <a href="https://signoz.io/slack"><b>Slack Community</b></a> &bull;
-  <a href="https://twitter.com/SigNozHq"><b>Twitter</b></a>
+<h3 align="center" tabindex="-1" dir="auto"><a id="user-content---documentation---readme-in-chinese---readme-in-german---readme-in-portuguese---slack-community---twitter" class="anchor" aria-hidden="true" tabindex="-1" href="#--documentation---readme-in-chinese---readme-in-german---readme-in-portuguese---slack-community---twitter"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>
+  <a href="https://signoz.io/docs" rel="nofollow"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></b></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">•
+  </font></font><a href="https://github.com/SigNoz/signoz/blob/develop/README.zh-cn.md"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中文自述文件</font></font></b></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">•
+  </font></font><a href="https://github.com/SigNoz/signoz/blob/develop/README.de-de.md"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">德文自述文件</font></font></b></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">•
+  </font></font><a href="https://github.com/SigNoz/signoz/blob/develop/README.pt-br.md"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">葡萄牙语自述文件</font></font></b></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">•
+  </font></font><a href="https://signoz.io/slack" rel="nofollow"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Slack 社区</font></font></b></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">•
+  </font></font><a href="https://twitter.com/SigNozHq" rel="nofollow"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Twitter</font></font></b></a>
 </h3>
-
-##
-
-SigNoz helps developers monitor applications and troubleshoot problems in their deployed applications. With SigNoz, you can:
-
-👉 Visualise Metrics, Traces and Logs in a single pane of glass
-
-👉 You can see metrics like p99 latency, error rates for your services, external API calls and individual end points.
-
-👉 You can find the root cause of the problem by going to the exact traces which are causing the problem and see detailed flamegraphs of individual request traces.
-
-👉 Run aggregates on trace data to get business relevant metrics
-
-👉 Filter and query logs, build dashboards and alerts based on attributes in logs
-
-👉 Record exceptions automatically in Python, Java, Ruby, and Javascript
-
-👉 Easy to set alerts with DIY query builder
-
-
-### Application Metrics
-
-![application_metrics](https://user-images.githubusercontent.com/83692067/226637410-900dbc5e-6705-4b11-a10c-bd0faeb2a92f.png)
-
-
-### Distributed Tracing
-<img width="2068" alt="distributed_tracing_2 2" src="https://user-images.githubusercontent.com/83692067/226536447-bae58321-6a22-4ed3-af80-e3e964cb3489.png">
-
-<img width="2068" alt="distributed_tracing_1" src="https://user-images.githubusercontent.com/83692067/226536462-939745b6-4f9d-45a6-8016-814837e7f7b4.png">
-
-### Logs Management
-
-<img width="2068" alt="logs_management" src="https://user-images.githubusercontent.com/83692067/226536482-b8a5c4af-b69c-43d5-969c-338bd5eaf1a5.png">
-
-### Infrastructure Monitoring
-
-<img width="2068" alt="infrastructure_monitoring" src="https://user-images.githubusercontent.com/83692067/226536496-f38c4dbf-e03c-4158-8be0-32d4a61158c7.png">
-
-### Exceptions Monitoring
-
-![exceptions_light](https://user-images.githubusercontent.com/83692067/226637967-4188d024-3ac9-4799-be95-f5ea9c45436f.png)
-
-
-### Alerts
-
-<img width="2068" alt="alerts_management" src="https://user-images.githubusercontent.com/83692067/226536548-2c81e2e8-c12d-47e8-bad7-c6be79055def.png">
-
-
-<br /><br />
-
-
-## Join our Slack community
-
-Come say Hi to us on [Slack](https://signoz.io/slack) 👋
-
-<br /><br />
-
-
-## Features:
-
-- Unified UI for metrics, traces and logs. No need to switch from Prometheus to Jaeger to debug issues, or use a logs tool like Elastic separate from your metrics and traces stack. 
-- Application overview metrics like RPS, 50th/90th/99th Percentile latencies, and Error Rate
-- Slowest endpoints in your application
-- See exact request trace to figure out issues in downstream services, slow DB queries, call to 3rd party services like payment gateways, etc
-- Filter traces by service name, operation, latency, error, tags/annotations.
-- Run aggregates on trace data (events/spans) to get business relevant metrics. e.g. You can get error rate and 99th percentile latency of `customer_type: gold` or `deployment_version: v2` or `external_call: paypal`
-- Native support for OpenTelemetry Logs, advanced log query builder, and automatic log collection from k8s cluster
-- Lightning quick log analytics ([Logs Perf. Benchmark](https://signoz.io/blog/logs-performance-benchmark/))
-- End-to-End visibility into infrastructure performance, ingest metrics from all kinds of host environments
-- Easy to set alerts with DIY query builder
-
-<br /><br />
-
-
-## Why SigNoz?
-
-Being developers, we found it annoying to rely on closed source SaaS vendors for every small feature we wanted. Closed source vendors often surprise you with huge month end bills without any transparency.
-
-We wanted to make a self-hosted & open source version of tools like DataDog, NewRelic for companies that have privacy and security concerns about having customer data going to third party services.
-
-Being open source also gives you complete control of your configuration, sampling, uptimes. You can also build modules over SigNoz to extend business specific capabilities
-
-### Languages supported:
-
-We support [OpenTelemetry](https://opentelemetry.io) as the library which you can use to instrument your applications. So any framework and language supported by OpenTelemetry is also supported by SigNoz. Some of the main supported languages are:
-
-- Java
-- Python
-- NodeJS
-- Go
-- PHP
-- .NET
-- Ruby
-- Elixir
-- Rust
-
-
-You can find the complete list of languages here - https://opentelemetry.io/docs/
-
-<br /><br />
-
-
-## Getting Started
-
-### Deploy using Docker
-
-Please follow the steps listed [here](https://signoz.io/docs/install/docker/) to install using docker
-
-The [troubleshooting instructions](https://signoz.io/docs/install/troubleshooting/) may be helpful if you face any issues.
-
-<p>&nbsp  </p>
-  
-  
-### Deploy in Kubernetes using Helm
-
-Please follow the steps listed [here](https://signoz.io/docs/deployment/helm_chart) to install using helm charts
-
-<br /><br />
-
-
-## Comparisons to Familiar Tools
-
-### SigNoz vs Prometheus
-
-Prometheus is good if you want to do just metrics. But if you want to have a seamless experience between metrics and traces, then current experience of stitching together Prometheus & Jaeger is not great.
-
-Our goal is to provide an integrated UI between metrics & traces - similar to what SaaS vendors like Datadog provides - and give advanced filtering and aggregation over traces, something which Jaeger currently lack.
-
-<p>&nbsp  </p>
-
-### SigNoz vs Jaeger
-
-Jaeger only does distributed tracing. SigNoz supports metrics, traces and logs - all the 3 pillars of observability.
-
-Moreover, SigNoz has few more advanced features wrt Jaeger:
-
-- Jaegar UI doesn’t show any metrics on traces or on filtered traces
-- Jaeger can’t get aggregates on filtered traces. For example, p99 latency of requests which have tag - customer_type='premium'. This can be done easily on SigNoz
-
-<p>&nbsp  </p>
-
-### SigNoz vs Elastic 
-
-- SigNoz Logs management are based on ClickHouse, a columnar OLAP datastore which makes aggregate log analytics queries much more efficient
-- 50% lower resource requirement compared to Elastic during ingestion
-
-We have published benchmarks comparing Elastic with SigNoz. Check it out [here](https://signoz.io/blog/logs-performance-benchmark/?utm_source=github-readme&utm_medium=logs-benchmark)
-
-<p>&nbsp  </p>
-
-### SigNoz vs Loki
-
-- SigNoz supports aggregations on high-cardinality data over a huge volume while loki doesn’t.
-- SigNoz supports indexes over high cardinality data and has no limitations on the number of indexes, while Loki reaches max streams with a few indexes added to it.
-- Searching over a huge volume of data is difficult and slow in Loki compared to SigNoz
-
-We have published benchmarks comparing Loki with SigNoz. Check it out [here](https://signoz.io/blog/logs-performance-benchmark/?utm_source=github-readme&utm_medium=logs-benchmark)
-
-<br /><br />
-
-
-## Contributing
-
-We ❤️ contributions big or small. Please read [CONTRIBUTING.md](CONTRIBUTING.md) to get started with making contributions to SigNoz.
-
-Not sure how to get started? Just ping us on `#contributing` in our [slack community](https://signoz.io/slack)
-
-### Project maintainers
-
-#### Backend
-
-- [Ankit Nayan](https://github.com/ankitnayan)
-- [Nityananda Gohain](https://github.com/nityanandagohain)
-- [Srikanth Chekuri](https://github.com/srikanthccv)
-- [Vishal Sharma](https://github.com/makeavish)
-
-#### Frontend
-
-- [Palash Gupta](https://github.com/palashgdev)
-- [Yunus M](https://github.com/YounixM)
-- [Rajat Dabade](https://github.com/Rajat-Dabade)
-
-#### DevOps
-
-- [Prashant Shahi](https://github.com/prashant-shahi)
-- [Dhawal Sanghvi](https://github.com/dhawal1248)
-
-<br /><br />
-
-
-## Documentation
-
-You can find docs at https://signoz.io/docs/. If you need any clarification or find something missing, feel free to raise a GitHub issue with the label `documentation` or reach out to us at the community slack channel.
-
-<br /><br />
-
-
-## Community
-
-Join the [slack community](https://signoz.io/slack) to know more about distributed tracing, observability, or SigNoz and to connect with other users and contributors.
-
-If you have any ideas, questions, or any feedback, please share on our [Github Discussions](https://github.com/SigNoz/signoz/discussions)
-
-As always, thanks to our amazing contributors!
-
+<h2 dir="auto"></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SigNoz 帮助开发人员监控应用程序并解决已部署应用程序中的问题。</font><font style="vertical-align: inherit;">使用 SigNoz，您可以：</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">👉 在单一管理面板中可视化指标、跟踪和日志</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">👉 您可以查看 p99 延迟、服务错误率、外部 API 调用和各个端点等指标。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">👉 您可以通过查找导致问题的确切跟踪并查看各个请求跟踪的详细火焰图来找到问题的根本原因。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">👉 对跟踪数据运行聚合以获取业务相关指标</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">👉 过滤和查询日志，根据日志中的属性构建仪表板和警报</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">👉 在 Python、Java、Ruby 和 Javascript 中自动记录异常</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">👉 使用 DIY 查询生成器轻松设置警报</font></font></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-application-metrics" class="anchor" aria-hidden="true" tabindex="-1" href="#application-metrics"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">应用指标</font></font></h3>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/83692067/226637410-900dbc5e-6705-4b11-a10c-bd0faeb2a92f.png"><img src="https://user-images.githubusercontent.com/83692067/226637410-900dbc5e-6705-4b11-a10c-bd0faeb2a92f.png" alt="应用程序指标" style="max-width: 100%;"></a></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-distributed-tracing" class="anchor" aria-hidden="true" tabindex="-1" href="#distributed-tracing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分布式追踪</font></font></h3>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/83692067/226536447-bae58321-6a22-4ed3-af80-e3e964cb3489.png"><img width="2000" alt="分布式跟踪_2 2" src="https://user-images.githubusercontent.com/83692067/226536447-bae58321-6a22-4ed3-af80-e3e964cb3489.png" style="max-width: 100%;"></a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/83692067/226536462-939745b6-4f9d-45a6-8016-814837e7f7b4.png"><img width="2000" alt="分布式跟踪_1" src="https://user-images.githubusercontent.com/83692067/226536462-939745b6-4f9d-45a6-8016-814837e7f7b4.png" style="max-width: 100%;"></a></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-logs-management" class="anchor" aria-hidden="true" tabindex="-1" href="#logs-management"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">日志管理</font></font></h3>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/83692067/226536482-b8a5c4af-b69c-43d5-969c-338bd5eaf1a5.png"><img width="2000" alt="日志管理" src="https://user-images.githubusercontent.com/83692067/226536482-b8a5c4af-b69c-43d5-969c-338bd5eaf1a5.png" style="max-width: 100%;"></a></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-infrastructure-monitoring" class="anchor" aria-hidden="true" tabindex="-1" href="#infrastructure-monitoring"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基础设施监控</font></font></h3>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/83692067/226536496-f38c4dbf-e03c-4158-8be0-32d4a61158c7.png"><img width="2000" alt="基础设施监控" src="https://user-images.githubusercontent.com/83692067/226536496-f38c4dbf-e03c-4158-8be0-32d4a61158c7.png" style="max-width: 100%;"></a></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-exceptions-monitoring" class="anchor" aria-hidden="true" tabindex="-1" href="#exceptions-monitoring"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">异常监控</font></font></h3>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/83692067/226637967-4188d024-3ac9-4799-be95-f5ea9c45436f.png"><img src="https://user-images.githubusercontent.com/83692067/226637967-4188d024-3ac9-4799-be95-f5ea9c45436f.png" alt="异常_光" style="max-width: 100%;"></a></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-alerts" class="anchor" aria-hidden="true" tabindex="-1" href="#alerts"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">警报</font></font></h3>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/83692067/226536548-2c81e2e8-c12d-47e8-bad7-c6be79055def.png"><img width="2000" alt="警报管理" src="https://user-images.githubusercontent.com/83692067/226536548-2c81e2e8-c12d-47e8-bad7-c6be79055def.png" style="max-width: 100%;"></a></p>
+<p dir="auto"><br><br></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-join-our-slack-community" class="anchor" aria-hidden="true" tabindex="-1" href="#join-our-slack-community"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">加入我们的 Slack 社区</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来</font></font><a href="https://signoz.io/slack" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Slack</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上向我们打个招呼👋</font></font></p>
+<p dir="auto"><br><br></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-features" class="anchor" aria-hidden="true" tabindex="-1" href="#features"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">特征：</font></font></h2>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">指标、跟踪和日志的统一 UI。</font><font style="vertical-align: inherit;">无需从 Prometheus 切换到 Jaeger 来调试问题，或使用与指标和跟踪堆栈分开的 Elastic 等日志工具。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">应用程序概览指标，例如 RPS、第 50/90/99 个百分点延迟和错误率</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">应用程序中最慢的端点</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看准确的请求跟踪，找出下游服务中的问题、缓慢的数据库查询、调用第三方服务（例如支付网关等）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">按服务名称、操作、延迟、错误、标签/注释过滤跟踪。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对跟踪数据（事件/跨度）运行聚合以获取业务相关指标。</font><font style="vertical-align: inherit;">例如，您可以获得</font></font><code>customer_type: gold</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>deployment_version: v2</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的错误率和 99% 延迟</font></font><code>external_call: paypal</code></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对 OpenTelemetry Logs、高级日志查询生成器以及从 k8s 集群自动日志收集的本机支持</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">闪电般的快速日志分析（</font></font><a href="https://signoz.io/blog/logs-performance-benchmark/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">日志性能基准</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对基础设施性能的端到端可见性，从各种主机环境中获取指标</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 DIY 查询生成器轻松设置警报</font></font></li>
+</ul>
+<p dir="auto"><br><br></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-why-signoz" class="anchor" aria-hidden="true" tabindex="-1" href="#why-signoz"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为什么选择 SignNoz？</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为开发人员，我们发现依赖闭源 SaaS 供应商来实现我们想要的每一个小功能是很烦人的。</font><font style="vertical-align: inherit;">闭源供应商经常会在没有任何透明度的情况下以巨额月末账单让您感到惊讶。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们希望为那些对将客户数据转移到第三方服务存在隐私和安全问题的公司制作一个自托管和开源版本的工具，例如 DataDog、NewRelic。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开源还让您可以完全控制配置、采样和正常运行时间。</font><font style="vertical-align: inherit;">您还可以通过 SigNoz 构建模块来扩展业务特定功能</font></font></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-languages-supported" class="anchor" aria-hidden="true" tabindex="-1" href="#languages-supported"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持的语言：</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们支持</font></font><a href="https://opentelemetry.io" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenTelemetry</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为库，您可以使用它来检测您的应用程序。</font><font style="vertical-align: inherit;">因此，SigNoz 也支持 OpenTelemetry 支持的任何框架和语言。</font><font style="vertical-align: inherit;">一些主要支持的语言是：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">爪哇</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Python</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">NodeJS</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">去</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PHP</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。网</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">红宝石</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">灵丹妙药</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">锈</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在这里找到完整的语言列表 - </font></font><a href="https://opentelemetry.io/docs/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://opentelemetry.io/docs/</font></font></a></p>
+<p dir="auto"><br><br></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-getting-started" class="anchor" aria-hidden="true" tabindex="-1" href="#getting-started"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">入门</font></font></h2>
+<h3 tabindex="-1" dir="auto"><a id="user-content-deploy-using-docker" class="anchor" aria-hidden="true" tabindex="-1" href="#deploy-using-docker"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 Docker 进行部署</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://signoz.io/docs/install/docker/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请按照此处</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">列出的步骤</font><font style="vertical-align: inherit;">使用 docker 安装</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您遇到任何问题，</font></font><a href="https://signoz.io/docs/install/troubleshooting/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">故障排除说明</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可能会有所帮助。</font></font></p>
+<p dir="auto">&nbsp;  </p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-deploy-in-kubernetes-using-helm" class="anchor" aria-hidden="true" tabindex="-1" href="#deploy-in-kubernetes-using-helm"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 Helm 在 Kubernetes 中部署</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://signoz.io/docs/deployment/helm_chart" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请按照此处</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">列出的步骤</font><font style="vertical-align: inherit;">使用 Helm Chart 进行安装</font></font></p>
+<p dir="auto"><br><br></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-comparisons-to-familiar-tools" class="anchor" aria-hidden="true" tabindex="-1" href="#comparisons-to-familiar-tools"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与熟悉的工具的比较</font></font></h2>
+<h3 tabindex="-1" dir="auto"><a id="user-content-signoz-vs-prometheus" class="anchor" aria-hidden="true" tabindex="-1" href="#signoz-vs-prometheus"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SigNoz 与 Prometheus</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果你只想做指标，Prometheus 是不错的选择。</font><font style="vertical-align: inherit;">但如果你想在指标和轨迹之间有无缝的体验，那么目前 Prometheus 和 Jaeger 拼接在一起的体验并不好。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们的目标是在指标和跟踪之间提供集成的 UI（类似于 Datadog 等 SaaS 供应商提供的 UI），并提供对跟踪的高级过滤和聚合，这是 Jaeger 目前所缺乏的。</font></font></p>
+<p dir="auto">&nbsp;  </p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-signoz-vs-jaeger" class="anchor" aria-hidden="true" tabindex="-1" href="#signoz-vs-jaeger"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SigNoz VS Jaeger</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Jaeger 只做分布式追踪。</font><font style="vertical-align: inherit;">SigNoz 支持指标、跟踪和日志——所有可观察性的三大支柱。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此外，SigNoz 与 Jaeger 相比还有一些更高级的功能：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Jaegar UI 不显示跟踪或过滤跟踪的任何指标</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Jaeger 无法获取已过滤跟踪的聚合。</font><font style="vertical-align: inherit;">例如，具有标签 - customer_type='premium' 的请求的 p99 延迟。</font><font style="vertical-align: inherit;">这可以在 SigNoz 上轻松完成</font></font></li>
+</ul>
+<p dir="auto">&nbsp;  </p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-signoz-vs-elastic" class="anchor" aria-hidden="true" tabindex="-1" href="#signoz-vs-elastic"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SigNoz 与 Elastic</font></font></h3>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SigNoz 日志管理基于 ClickHouse，这是一个列式 OLAP 数据存储，可以使聚合日志分析查询更加高效</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与 Elastic 相比，摄取期间的资源需求降低了 50%</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们发布了比较 Elastic 与 SigNoz 的基准。</font><a href="https://signoz.io/blog/logs-performance-benchmark/?utm_source=github-readme&amp;utm_medium=logs-benchmark" rel="nofollow"><font style="vertical-align: inherit;">在这里</font></a><font style="vertical-align: inherit;">查看</font></font><a href="https://signoz.io/blog/logs-performance-benchmark/?utm_source=github-readme&amp;utm_medium=logs-benchmark" rel="nofollow"><font style="vertical-align: inherit;"></font></a></p>
+<p dir="auto">&nbsp;  </p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-signoz-vs-loki" class="anchor" aria-hidden="true" tabindex="-1" href="#signoz-vs-loki"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">西格诺兹 vs 洛基</font></font></h3>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SigNoz 支持对大量高基数数据进行聚合，而 loki 则不支持。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SigNoz 支持高基数数据上的索引，并且对索引数量没有限制，而 Loki 通过添加一些索引即可达到最大流。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与 SigNoz 相比，在 Loki 中搜索大量数据既困难又缓慢</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们发布了比较 Loki 和 SigNoz 的基准。</font><a href="https://signoz.io/blog/logs-performance-benchmark/?utm_source=github-readme&amp;utm_medium=logs-benchmark" rel="nofollow"><font style="vertical-align: inherit;">在这里</font></a><font style="vertical-align: inherit;">查看</font></font><a href="https://signoz.io/blog/logs-performance-benchmark/?utm_source=github-readme&amp;utm_medium=logs-benchmark" rel="nofollow"><font style="vertical-align: inherit;"></font></a></p>
+<p dir="auto"><br><br></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-contributing" class="anchor" aria-hidden="true" tabindex="-1" href="#contributing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们❤️贡献或大或小。</font><font style="vertical-align: inherit;">请阅读</font></font><a href="/SigNoz/signoz/blob/develop/CONTRIBUTING.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CONTRIBUTING.md</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以开始为 SigNoz 做出贡献。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不知道如何开始？</font></font><code>#contributing</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只需在</font><a href="https://signoz.io/slack" rel="nofollow"><font style="vertical-align: inherit;">Slack 社区</font></a><font style="vertical-align: inherit;">中联系我们即可</font></font><a href="https://signoz.io/slack" rel="nofollow"><font style="vertical-align: inherit;"></font></a></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-project-maintainers" class="anchor" aria-hidden="true" tabindex="-1" href="#project-maintainers"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">项目维护者</font></font></h3>
+<h4 tabindex="-1" dir="auto"><a id="user-content-backend" class="anchor" aria-hidden="true" tabindex="-1" href="#backend"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">后端</font></font></h4>
+<ul dir="auto">
+<li><a href="https://github.com/ankitnayan"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安基特·纳扬</font></font></a></li>
+<li><a href="https://github.com/nityanandagohain"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尼提亚南达·戈海因</font></font></a></li>
+<li><a href="https://github.com/srikanthccv"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">斯里坎特·切库里</font></font></a></li>
+<li><a href="https://github.com/makeavish"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">维沙尔·夏尔马</font></font></a></li>
+</ul>
+<h4 tabindex="-1" dir="auto"><a id="user-content-frontend" class="anchor" aria-hidden="true" tabindex="-1" href="#frontend"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">前端</font></font></h4>
+<ul dir="auto">
+<li><a href="https://github.com/palashgdev"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">帕拉什·古普塔</font></font></a></li>
+<li><a href="https://github.com/YounixM"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尤努斯中号</font></font></a></li>
+<li><a href="https://github.com/Rajat-Dabade"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">拉贾·达巴德</font></font></a></li>
+</ul>
+<h4 tabindex="-1" dir="auto"><a id="user-content-devops" class="anchor" aria-hidden="true" tabindex="-1" href="#devops"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发运营</font></font></h4>
+<ul dir="auto">
+<li><a href="https://github.com/prashant-shahi"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">普拉尚特·沙希</font></font></a></li>
+<li><a href="https://github.com/dhawal1248"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">达瓦尔·桑格维</font></font></a></li>
+</ul>
+<p dir="auto"><br><br></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-documentation" class="anchor" aria-hidden="true" tabindex="-1" href="#documentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://signoz.io/docs/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在https://signoz.io/docs/</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">找到文档</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">如果您需要任何说明或发现缺少某些内容，请随时提出有关该标签的 GitHub 问题</font></font><code>documentation</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或通过社区 Slack 频道与我们联系。</font></font></p>
+<p dir="auto"><br><br></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-community" class="anchor" aria-hidden="true" tabindex="-1" href="#community"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">社区</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">加入</font></font><a href="https://signoz.io/slack" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Slack 社区</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，了解有关分布式跟踪、可观察性或 SigNoz 的更多信息，并与其他用户和贡献者建立联系。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您有任何想法、问题或任何反馈，请在我们的</font></font><a href="https://github.com/SigNoz/signoz/discussions"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Github 讨论中分享</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一如既往，感谢我们出色的贡献者！</font></font></p>
 <a href="https://github.com/signoz/signoz/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=signoz/signoz" />
+  <img src="https://camo.githubusercontent.com/76b0d871ba8e20bcab02483d03d5ab73a004d606cd6b7107beda8c6d7254db3b/68747470733a2f2f636f6e747269622e726f636b732f696d6167653f7265706f3d7369676e6f7a2f7369676e6f7a" data-canonical-src="https://contrib.rocks/image?repo=signoz/signoz" style="max-width: 100%;">
 </a>
+</article></div>
